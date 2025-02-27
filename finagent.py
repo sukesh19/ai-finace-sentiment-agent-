@@ -3,7 +3,7 @@
 import requests
 from phi.agent import Agent
 from phi.model.groq import Groq
-from dotenv import load_dotenv
+from dotenv import load_doten
 from textblob import TextBlob
 
 load_dotenv()
