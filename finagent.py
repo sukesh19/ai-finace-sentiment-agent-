@@ -1,7 +1,7 @@
 # Run `pip install requests textblob` to install dependencies.
 # headers
 import requests
-from phi.agent import Agen
+from phi.agent import Agent
 from phi.model.groq import Groq
 from dotenv import load_dotenv
 from textblob import TextBlob
