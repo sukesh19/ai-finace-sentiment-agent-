@@ -1,6 +1,7 @@
 # Run `pip install requests textblob` to install dependencies.
 # headers
-import requests
+import request
+
 
 from phi.agent import Agent
 from phi.model.groq import Groq
