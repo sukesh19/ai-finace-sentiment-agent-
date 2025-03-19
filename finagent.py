@@ -1,6 +1,6 @@
 # Run `pip install requests textblob` to install dependencies.
 # headers
-import request
+import requests
 
 
 from phi.agent import Agent
