@@ -13,3 +13,5 @@ Market Analysis (News aggregation, sentiment analysis, predictive modeling)
 Risk Management (Volatility analysis, stop-loss recommendations)
 
 Let me know your vision, and I'll design the architecture or provide a prototype! 🚀
+ build in for globe
+ 
