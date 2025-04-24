@@ -2,7 +2,7 @@
 
 Are you looking for an AI finance agent for personal finance management, stock trading, investment advisory, or something else? Also, should it integrate with your AI trading bot for Indian markets? Let me know the key functionalities you want, such as:
 
-Portfolio Management (Track stocks, mutual funds, crypto, etc.).
+Portfolio Management (Track stocks, mutual funds, crypto, etc.).**
 
 Trading Automation (Execute buy/sell orders based on AI signals)
 
