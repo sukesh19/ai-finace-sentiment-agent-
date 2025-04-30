@@ -8,7 +8,7 @@ Trading Automation (Execute buy/sell orders based on AI signals)
 
 Financial Planning (Budgeting, saving goals, tax optimization)**
 
-Market Analysis (News aggregation, sentiment analysis, predictive modeling)**
+Market Analysis (News aggregation, sentiment analysis, predictive modeling)
 
 Risk Management (Volatility analysis, stop-loss recommendations)
 
