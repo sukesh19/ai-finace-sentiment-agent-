@@ -14,4 +14,5 @@ Risk Management (Volatility analysis, stop-loss recommendations)
 
 Let me know your vision, and I'll design the architecture or provide a prototype! 🚀
  **build  for globe**
+ use large set of data
  
