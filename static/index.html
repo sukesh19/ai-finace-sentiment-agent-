@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nifty 50 Stock Predictor</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.0/dist/chart.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@3.0.0/dist/chartjs-adapter-date-fns.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Nifty 50 Stock Predictor</h1>
+
+        <div class="selection-area">
+            <label for="stock-select">Select a Stock:</label>
+            <select id="stock-select">
+                <option value="" disabled selected>-- Choose a stock --</option>
+                </select>
+        </div>
+
+        <div id="loading-message" class="message loading-message" style="display: none;">
+            Loading data and training model...
+        </div>
+        <div id="error-message" class="message error-message" style="display: none;"></div>
+
+        <div id="prediction-area" class="prediction-area" style="display: none;">
+            <h2>Prediction</h2>
+            <p><strong>Stock:</strong> <span id="predicted-stock-name"></span></p>
+            <p><strong>Predicted Price:</strong> <span id="predicted-value"></span></p>
+            <p><strong>Accuracy:</strong> <span id="prediction-accuracy"></span></p>
+        </div>
+
+        <div id="chart-area" class="chart-area" style="display: none;">
+            <h2>Price Trend (<span id="chart-stock-name"></span>)</h2>
+            <canvas id="stockChart"></canvas>
+        </div>
+
+        <div id="analysis-area" class="analysis-area" style="display: none;">
+            <h2>Stock Analysis</h2>
+            <div id="analysis-content"></div>
+        </div>
+
+        <div class="info-disclaimer">
+            <p>
+                This application uses a simple linear regression model for price prediction.
+                Stock market predictions are inherently complex and involve many factors.
+                This tool is for demonstration purposes only and should not be used for actual financial decisions.
+            </p>
+            <p>
+                For more accurate predictions, advanced models and real-time data (news, volume, sentiment, trends) are required.
+            </p>
+        </div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
